@@ -1,0 +1,37 @@
+{
+    "eslint.enable": true,
+    "eslint.validate": [
+        {
+            "language": "html",
+            "autoFix": true
+        },
+        {
+            "language": "react",
+            "autoFix": true
+        },
+        {
+            "language": "javascript",
+            "autoFix": true
+        },
+        {
+            "language": "typescript",
+            "autoFix": true
+        },
+        {
+            "language": "typescriptreact",
+            "autoFix": true
+        }
+    ],
+    // "editor.defaultFormatter": "esbenp.prettier-vscode",
+    // 保存自动修复
+    "eslint.autoFixOnSave": true,
+    // "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active",
+    // "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "eslint.nodePath": "../node_modules/",
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "typescript.enablePromptUseWorkspaceTsdk": true
+}
